@@ -9,6 +9,8 @@
     background: url(https://i.imgur.com/ZK5oeoH.png ); 
     height: 130px;
     width: 133px;
+    top: -50px;
+    left: 0;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(ps3-assets/base-disconnect.png);
@@ -146,19 +148,19 @@ start and select buttons. */
 }
 .custom .a{
     background-position: 0 0;
-    left: 0;
+    left: -100;
 }
 .custom .b{
     background-position: 120px 0;
-    left: 429px;
+    left: 329px;
 }
 .custom .x{
     background-position: 360px 0;
-    left: 143px;
+    left: 43px;
 }
 .custom .y{
     background-position: 240px 0;
-    left: 286px;
+    left: 186px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
@@ -183,7 +185,7 @@ the CSS inline. */
     background-position-x: 0;
 }
 .custom .stick.left{
-    top: 0;
+    top: -50px;
     left: 0;
 }
 .custom .stick.right{
