@@ -112,6 +112,7 @@ start and select buttons. */
     background: url(https://i.imgur.com/a9IXvSX.png );
     width: 99px;
     height: 94px;
+    left:624px;
 }
 .custom .back.pressed, .custom .start.pressed{
     background-position-y: -95px;
@@ -120,13 +121,11 @@ start and select buttons. */
 .custom .back{
     float: left;
     width: 99px;
-    left:624px;
 }
 .custom .start{
     float: right;
     width: 99px;
-    background-position: 100px 0;
-    left:624px;
+    background-position: 101px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
