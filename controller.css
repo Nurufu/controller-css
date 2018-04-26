@@ -145,17 +145,17 @@ start and select buttons. */
     margin-top: 5px;
 }
 .custom .a{
-    background-position: 0px 0;
+    background-position: 0 0;
     top: 142px;
     left: 71px;
 }
 .custom .b{
-    background-position: 360px 0;
+    background-position: 120px 0;
     top: 71px;
     right: 0px;
 }
 .custom .x{
-    background-position: 120px 0;
+    background-position: 360px 0;
     top: 71px;
 }
 .custom .y{
