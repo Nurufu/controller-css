@@ -24,7 +24,7 @@
     left: 99px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:94px;
+    width:95px;
     height:94px;
     background: url(https://i.imgur.com/QsWu8Qr.png );
     opacity: 0;
@@ -54,7 +54,6 @@ placement */
     width: 200px;
     height: 94px;
     left: 99px;
-    top: 72px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -67,6 +66,7 @@ placement */
     float: left;
 }
 .custom .bumper.right{
+    background-position: 96px 0;
     float: right;
 }
 /* This bit of code is for the player indicator, which is represented in
