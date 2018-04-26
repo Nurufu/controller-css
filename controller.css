@@ -22,7 +22,7 @@
     height: 94px;
     position: absolute;
     left: 416px;
-    top:160px;
+    top:157px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:95px;
@@ -55,7 +55,7 @@ placement */
     width: 200px;
     height: 94px;
     left: 416px;
-    top:160px;
+    top:157px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -109,22 +109,22 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(ps3-assets/menus.png);
-    width: 34px;
-    height: 19px;
+    background: url(https://i.imgur.com/zm4m267.png );
+    width: 99px;
+    height: 93px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -21px;
+    background-position-y: -94px;
     margin-top: 2px;
 }
 .custom .back{
     float: left;
-    width: 38px;
+    width: 99px;
 }
 .custom .start{
     float: right;
-    width: 36px;
-    background-position: 37px 0;
+    width: 99px;
+    background-position: 100px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
@@ -182,7 +182,7 @@ the CSS inline. */
     background-position-x: 0;
 }
 .custom .stick.left{
-    top: 144px;
+    top: 147px;
     left: -130px;
     z-index:2;
 }
@@ -191,7 +191,7 @@ the CSS inline. */
     background: url(https://i.imgur.com/ZK5oeoH.png );
     height: 130px;
     width: 133px;
-    top:132px;
+    top:135px;
     left:-145px;
 }
 /* Dpad possitioning and sizing */
