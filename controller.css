@@ -9,8 +9,8 @@
     background: url(https://i.imgur.com/ZK5oeoH.png ); 
     height: 130px;
     width: 133px;
-    top: 328px;
-    left: 210px;
+    top: 528px;
+    left: 310px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(ps3-assets/base-disconnect.png);
@@ -138,12 +138,12 @@ start and select buttons. */
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:118px;
-    height:118px;
+    width:95px;
+    height:95px;
     background: url(https://i.imgur.com/g9PqTXS.png );
 }
 .custom .button.pressed{
-    background-position-y: -120px;
+    background-position-y: -96px;
     margin-top: 5px;
 }
 .custom .a{
@@ -151,15 +151,15 @@ start and select buttons. */
     left: 0;
 }
 .custom .b{
-    background-position: 120px 0;
+    background-position: 96px 0;
     left: 429px;
 }
 .custom .x{
-    background-position: 360px 0;
+    background-position: 288px 0;
     left: 143px;
 }
 .custom .y{
-    background-position: 240px 0;
+    background-position: 192px 0;
     left: 286px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
@@ -169,8 +169,6 @@ the CSS inline. */
     position: absolute;
     width: 364px;
     height: 105px;
-    top: 328px;
-    left: 210px;
 }
 .custom .stick{
     position: absolute;
