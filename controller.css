@@ -136,8 +136,8 @@ start and select buttons. */
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:60px;
-    height:60px;
+    width:118px;
+    height:118px;
     background: url(https://i.imgur.com/g9PqTXS.png );
 }
 .custom .button.pressed{
