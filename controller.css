@@ -26,22 +26,26 @@
     left: 99px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:86px;
-    height:65px;
-    background: url(http://gamepadviewer.com/ps3-assets/triggers.png);
+    width:95px;
+    height:94px;
+    background: url(https://i.imgur.com/XmGXcWP.png );
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
-.custom .trigger.left{ 
+.custom .trigger.left{
+    background-position: 0 0;
     float: left;
 }
 .custom .trigger.right{
+    background-position: 102px 0;
     float: right;
 }
-
+.custom .trigger.pressed {
+    background-position: 0 103px;   
+}
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
