@@ -151,16 +151,16 @@ start and select buttons. */
     left: 0;
 }
 .custom .b{
-    background-position: 96px 0;
-    left: 399px;
+    background-position: 95px 0;
+    left: 104px;
 }
 .custom .x{
     background-position: 287px 0;
-    left: 113px;
+    left: 312px;
 }
 .custom .y{
     background-position: 192px 0;
-    left: 256px;
+    left: 208px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
@@ -183,8 +183,8 @@ the CSS inline. */
     background-position-x: 0;
 }
 .custom .stick.left{
-    top: 20px;
-    left: 10px;
+    top: 15px;
+    left: 13px;
 }
 .custom .stick.right{
     top: 5001px;
