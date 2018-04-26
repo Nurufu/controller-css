@@ -7,10 +7,8 @@
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(https://i.imgur.com/TOwCGDu.png );
-    height: 130px;
-    width: 133px;
-    top: 560px;
-    left: 240px;
+    height: 94px;
+    width: 200px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(ps3-assets/base-disconnect.png);
