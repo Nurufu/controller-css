@@ -9,8 +9,8 @@
     background: url(https://i.imgur.com/ZK5oeoH.png ); 
     height: 130px;
     width: 133px;
-    top: 515px;
-    left: 286px;
+    top: 500px;
+    left: 270px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(ps3-assets/base-disconnect.png);
@@ -155,11 +155,11 @@ start and select buttons. */
     left: 429px;
 }
 .custom .x{
-    background-position: 288px 0;
+    background-position: 287px 0;
     left: 143px;
 }
 .custom .y{
-    background-position: 192px 0;
+    background-position: 190px 0;
     left: 286px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
