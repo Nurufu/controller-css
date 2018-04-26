@@ -6,7 +6,7 @@
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(ps3-assets/base.png); 
+    background: url(https://i.imgur.com/ZK5oeoH.png ); 
     height: 558px;
     width: 784px;
 }
@@ -172,24 +172,24 @@ the CSS inline. */
 }
 .custom .stick{
     position: absolute;
-    background: url(ps3-assets/thumbs.png);
+    background: url(http://gamepadviewer.com/ps3-assets/thumbs.png );
     height:105px;
     width: 105px;
 }
 .custom .stick.pressed.left{
-    background-position-x: -106px;
+    background-position-x: 0;
 }
 .custom .stick.pressed.right{
-    background-position-x: -211px;
+    background-position-x: 0;
 }
 .custom .stick.left{
     top: 0;
     left: 0;
 }
-.custom .stick.right{
+/*.custom .stick.right{
     top: calc(100% - 105px);
     left: calc(100% - 105px);
-}
+}*/
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
