@@ -22,7 +22,7 @@
     height: 94px;
     position: absolute;
     left: 416px;
-    top:157px;
+    top:156px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:95px;
@@ -55,7 +55,7 @@ placement */
     width: 200px;
     height: 94px;
     left: 416px;
-    top:157px;
+    top:156px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -109,22 +109,24 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(https://i.imgur.com/zm4m267.png );
+    background: url(https://i.imgur.com/a9IXvSX.png );
     width: 99px;
-    height: 93px;
+    height: 94px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -94px;
+    background-position-y: -95px;
     margin-top: 2px;
 }
 .custom .back{
     float: left;
     width: 99px;
+    left:624px;
 }
 .custom .start{
     float: right;
     width: 99px;
     background-position: 100px 0;
+    left:624px;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
