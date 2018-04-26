@@ -183,8 +183,8 @@ the CSS inline. */
     background-position-x: 0;
 }
 .custom .stick.left{
-    top: 34px;
-    left: -20px;
+    top: 134px;
+    left: -80px;
     z-index:2;
 }
 .custom .stick.right{
@@ -192,8 +192,8 @@ the CSS inline. */
     background: url(https://i.imgur.com/ZK5oeoH.png );
     height: 130px;
     width: 133px;
-    top:24px;
-    left:-26px;
+    top:124px;
+    left:-96px;
 }
 /* Dpad possitioning and sizing */
 .custom .dpad{
