@@ -9,8 +9,8 @@
     background: url(https://i.imgur.com/ZK5oeoH.png ); 
     height: 130px;
     width: 133px;
-    top: 528px;
-    left: 310px;
+    top: 515px;
+    left: 286px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(ps3-assets/base-disconnect.png);
