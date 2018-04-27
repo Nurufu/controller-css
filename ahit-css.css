@@ -6,9 +6,9 @@
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(https://i.imgur.com/piLLOZo.png );
+    /*background: url(https://i.imgur.com/piLLOZo.png );
     width:949px;
-    height:124px;
+    height:124px;*/
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(ps3-assets/base-disconnect.png);
@@ -109,7 +109,7 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(https://i.imgur.com/a9IXvSX.png );
+    background: url(http://gamepadviewer.com/xbox-assets-old/arrow.png );
     width: 99px;
     height: 94px;
 }
@@ -139,7 +139,7 @@ start and select buttons. */
     position: absolute;
     width:94px;
     height:94px;
-    background: url(https://i.imgur.com/LnYZNF3.png );
+    /*background: url(https://i.imgur.com/LnYZNF3.png );*/
 }
 .custom .button.pressed{
     background-position-y: -96px;
@@ -147,18 +147,22 @@ start and select buttons. */
 }
 .custom .a{
     background-position: 0 0;
+    background:url(http://gamepadviewer.com/xbox-assets-old/a.png );
     left: 0;
 }
 .custom .b{
     background-position: 96px 0;
+    background:url(http://gamepadviewer.com/xbox-assets-old/b.png );
     left: 312px;
 }
 .custom .x{
     background-position: 287px 0;
+    background:url(http://gamepadviewer.com/xbox-assets-old/x.png );
     left: 104px;
 }
 .custom .y{
     background-position: 192px 0;
+    background:url(http://gamepadviewer.com/xbox-assets-old/y.png );
     left: 208px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
@@ -199,7 +203,7 @@ the CSS inline. */
     left: 74px;
 }
 .custom .face{
-    background: url(ps3-assets/dpad.png);
+    background: url(xbox-assets-ols/dpad.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
