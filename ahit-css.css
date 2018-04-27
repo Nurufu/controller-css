@@ -129,39 +129,35 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 204px;
-    height: 205px;
+    width: 161px;
+    height: 160px;
     top: 156px;
     left: 0;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:94px;
-    height:94px;
+    width:54px;
+    height:54px;
     /*background: url(https://i.imgur.com/LnYZNF3.png );*/
 }
 .custom .button.pressed{
-    background-position-y: -96px;
+    background-position-y: -55px;
     margin-top: 5px;
 }
 .custom .a{
-    background-position: 0 0;
     background:url(http://gamepadviewer.com/xbox-assets-old/a.png );
     left: 0;
 }
 .custom .b{
-    background-position: 96px 0;
     background:url(http://gamepadviewer.com/xbox-assets-old/b.png );
     left: 312px;
 }
 .custom .x{
-    background-position: 287px 0;
     background:url(http://gamepadviewer.com/xbox-assets-old/x.png );
     left: 104px;
 }
 .custom .y{
-    background-position: 192px 0;
     background:url(http://gamepadviewer.com/xbox-assets-old/y.png );
     left: 208px;
 }
