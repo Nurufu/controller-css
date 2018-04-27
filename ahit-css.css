@@ -110,16 +110,18 @@ start and select buttons. */
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
     background: url(http://gamepadviewer.com/xbox-assets-old/arrow.png );
-    width: 99px;
-    height: 94px;
+    width: 34px;
+    height: 29px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -95px;
+    background-position-y: -30px;
     margin-top: 2px;
 }
 .custom .back{
     float: left;
     width: 99px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 .custom .start{
     float: right;
@@ -161,6 +163,13 @@ start and select buttons. */
     background:url(http://gamepadviewer.com/xbox-assets-old/y.png );
     left: 208px;
 }
+.custom .button.pressed.a {
+    background-position: 0 -54px;
+}
+
+.custom .button.pressed.y {
+    background-position: 0 -56px;
+}
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
 the CSS inline. */
@@ -187,50 +196,63 @@ the CSS inline. */
     z-index:2;
 }
 .custom .stick.right{
-    top:135px;
+    top:147px;
     left:845px;
 }
 /* Dpad possitioning and sizing */
-.custom .dpad{
+.custom .dpad {
     position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
+    width: 112px;
+    height: 112px;
+    top: 273px;
+    left: 174px;
 }
-.custom .face{
-    background: url(xbox-assets-ols/dpad.png);
+
+.custom .face {
     position: absolute;
+    font-size: 30px;
+    line-height: 0;
+    color: white;
+    opacity: 0;
+    font-family: 'FontAwesome';
 }
-.custom .face.up, .custom .face.down{
-    width: 38px;
-    height: 52px;
+
+.custom .face.pressed {
+    opacity: 1;
 }
-.custom .face.left, .custom .face.right{
-    width: 52px;
-    height: 38px;
+
+.custom .face.up {
+    left: 42px;
+    top: 20px;
 }
-.custom .face.up{
-    left: 50px;
-    top: 0;
-    background-position: 92px 0px;
+
+.custom .face.up:after {
+    content: "\f062";
 }
-.custom .face.down{
-    left: 50px;
-    top: 79px;
-    background-position: 131px 0;
+
+.xbox-old .face.down {
+    left: 42px;
+    bottom: 20px;
 }
-.custom .face.left{
-    top: 47px;
-    left: 0;
-    background-position: 0px 0;
+
+.custom .face.down:after {
+    content: "\f063";
 }
-.custom .face.right{
-    top: 47px;
-    right: 0px;
-    background-position: 53px 0;
+
+.custom .face.left {
+    top: 56px;
+    left: 3px;
 }
-.custom .face.pressed{
-    margin-top: 6px;
-    background-position-y: 52px;
+
+.custom .face.left:after {
+    content: "\f060";
+}
+
+.custom .face.right {
+    top: 56px;
+    right: 3px;
+}
+
+.custom .face.right:after {
+    content: "\f061";
 }
