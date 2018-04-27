@@ -157,12 +157,10 @@ start and select buttons. */
 .custom .x{
     background:url(http://gamepadviewer.com/xbox-assets-old/x.png );
     left: 0px;
-    top:59px;
 }
 .custom .y{
     background:url(http://gamepadviewer.com/xbox-assets-old/y.png );
     left: 59px;
-    top:59px;
 }
 .custom .button.pressed.a {
     background-position: 0 -54px;
@@ -198,7 +196,7 @@ the CSS inline. */
 }
 .custom .stick.right{
     top:147px;
-    left:708px;
+    left:705px;
 }
 /* Dpad possitioning and sizing */
 .custom .dpad {
@@ -224,7 +222,7 @@ the CSS inline. */
 
 .custom .face.up {
     left: 42px;
-    top: 20px;
+    top: -20px;
 }
 
 .custom .face.up:after {
@@ -233,7 +231,7 @@ the CSS inline. */
 
 .xbox-old .face.down {
     left: 42px;
-    bottom: 20px;
+    top: 0;
 }
 
 .custom .face.down:after {
@@ -241,7 +239,7 @@ the CSS inline. */
 }
 
 .custom .face.left {
-    top: 56px;
+    top: -56px;
     left: 3px;
 }
 
@@ -250,7 +248,7 @@ the CSS inline. */
 }
 
 .custom .face.right {
-    top: 56px;
+    top: -56px;
     right: 3px;
 }
 
