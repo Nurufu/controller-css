@@ -119,13 +119,11 @@ start and select buttons. */
 }
 .custom .back{
     float: left;
-    width: 99px;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 .custom .start{
     float: right;
-    width: 98px;
     background-position: 98px 0;
 }
 /* Positioning and size of the container for the face buttons */
@@ -149,19 +147,21 @@ start and select buttons. */
 }
 .custom .a{
     background:url(http://gamepadviewer.com/xbox-assets-old/a.png );
-    left: 0;
+    left: 54px;
+    top:54px;
 }
 .custom .b{
     background:url(http://gamepadviewer.com/xbox-assets-old/b.png );
-    left: 312px;
+    left: 108px;
 }
 .custom .x{
     background:url(http://gamepadviewer.com/xbox-assets-old/x.png );
-    left: 104px;
+    left: 0px;
 }
 .custom .y{
     background:url(http://gamepadviewer.com/xbox-assets-old/y.png );
-    left: 208px;
+    left: 54px;
+    bottom:54px;
 }
 .custom .button.pressed.a {
     background-position: 0 -54px;
@@ -197,7 +197,7 @@ the CSS inline. */
 }
 .custom .stick.right{
     top:147px;
-    left:845px;
+    left:700px;
 }
 /* Dpad possitioning and sizing */
 .custom .dpad {
