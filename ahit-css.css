@@ -22,11 +22,11 @@
     height: 94px;
     position: absolute;
     left: 416px;
-    top:156px;
+    top:136px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:86px;
-    height:65px;
+    height:62px;
     opacity: 0.6;
 }
 /* The left and right classes below are used to position the triggers
@@ -34,18 +34,18 @@ within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left{
-    background: url(https://i.imgur.com/pCBBOZd.png );
+    background: url(https://i.imgur.com/OllLspY.png );
     float: left;
 }
 .custom .trigger.right{
-    background: url(https://i.imgur.com/VDdr6n6.png );
+    background: url(https://i.imgur.com/RaZUj8N.png );
     float: right;
 }
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
     width: 86px;
-    height: 65px;
+    height: 62px;
     opacity: 0.6;
 }
 .custom .bumpers{
@@ -63,11 +63,11 @@ placement */
   and I can just rotate them in the browser? Also, note that you most likely won't need
   to use a browser speficic prefix unless it's something that is indeed browser specific.
   NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
-    background: url(https://i.imgur.com/bIM49aG.png );
+    background: url(https://i.imgur.com/mTxDqL9.png );
     float: left;
 }
 .custom .bumper.right{
-    background: url(https://i.imgur.com/u6wGXiE.png );
+    background: url(https://i.imgur.com/F0Tz7Lh.png );
     float: right;
 }
 /* This bit of code is for the player indicator, which is represented in
@@ -101,10 +101,10 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 150px;
+    width: 100px;
     height: 19px;
-    top:156px;
-    left: 180px;
+    top:146px;
+    left: 160px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
