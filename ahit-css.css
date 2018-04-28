@@ -22,7 +22,7 @@
     height: 94px;
     position: absolute;
     left: 416px;
-    top:136px;
+    top:141px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:86px;
@@ -52,8 +52,8 @@ placement */
     position: absolute;
     width: 200px;
     height: 94px;
-    left: 0px;
-    top:0px;
+    left: 416px;
+    top:203px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -101,7 +101,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 100px;
+    width: 130px;
     height: 19px;
     top:146px;
     left: 160px;
