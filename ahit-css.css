@@ -104,7 +104,7 @@ start and select buttons. */
     width: 205px;
     height: 19px;
     top:156px;
-    left: 624px;
+    left: 230px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
@@ -223,7 +223,7 @@ the CSS inline. */
 
 .custom .face.up {
     left: 42px;
-    top: -90px;
+    top: -100px;
 }
 
 .custom .face.up:after {
@@ -232,7 +232,7 @@ the CSS inline. */
 
 .custom .face.down {
     left: 42px;
-    top: -10px;
+    top: -30px;
 }
 
 .custom .face.down:after {
