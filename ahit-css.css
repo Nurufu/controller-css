@@ -22,7 +22,7 @@
     height: 94px;
     position: absolute;
     left: 416px;
-    top:141px;
+    top:139px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:86px;
@@ -53,7 +53,7 @@ placement */
     width: 200px;
     height: 94px;
     left: 416px;
-    top:203px;
+    top:201px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -101,10 +101,10 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 130px;
+    width: 136px;
     height: 19px;
     top:146px;
-    left: 160px;
+    left: 175px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
@@ -222,7 +222,7 @@ the CSS inline. */
 }
 
 .custom .face.up {
-    left: 42px;
+    left: 57px;
     top: -110px;
 }
 
@@ -231,7 +231,7 @@ the CSS inline. */
 }
 
 .custom .face.down {
-    left: 42px;
+    left: 57px;
     top: -40px;
 }
 
@@ -241,7 +241,7 @@ the CSS inline. */
 
 .custom .face.left {
     top: -76px;
-    left: 3px;
+    left: 18px;
 }
 
 .custom .face.left:after {
@@ -250,7 +250,7 @@ the CSS inline. */
 
 .custom .face.right {
     top: -76px;
-    right: 3px;
+    right: 18px;
 }
 
 .custom .face.right:after {
