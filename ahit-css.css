@@ -145,7 +145,7 @@ start and select buttons. */
 }
 .custom .a{
     background:url(https://i.imgur.com/hyeLnJL.png );
-    background-position-y: -55px;
+    background-position-y: -54px;
     left: 0;
     top:44px;
 }
@@ -163,16 +163,9 @@ start and select buttons. */
 }
 .custom .y{
     background:url(https://i.imgur.com/WJ2TYQi.png );
-    background-position-y: -55px;
+    background-position-y: -56px;
     left: 59px;
     top: -15px;
-}
-.custom .button.pressed.a {
-    background-position: 0 -54px;
-}
-
-.custom .button.pressed.y {
-    background-position: 0 -56px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
