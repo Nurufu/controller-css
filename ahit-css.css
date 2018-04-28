@@ -140,26 +140,30 @@ start and select buttons. */
     /*background: url(https://i.imgur.com/LnYZNF3.png );*/
 }
 .custom .button.pressed{
-    background-position-y: -55px;
+    background-position-y: 0px;
     margin-top: 5px;
 }
 .custom .a{
-    background:url(http://gamepadviewer.com/xbox-assets-old/a.png );
+    background:url(https://i.imgur.com/hyeLnJL.png );
+    background-position-y: -55px;
     left: 0;
     top:44px;
 }
 .custom .b{
-    background:url(http://gamepadviewer.com/xbox-assets-old/b.png );
+    background:url(https://i.imgur.com/VsPOBPG.png );
+    background-position-y: -55px;
     left: 59px;
     top:44px;
 }
 .custom .x{
-    background:url(http://gamepadviewer.com/xbox-assets-old/x.png );
+    background:url(https://i.imgur.com/luZQWF1.png );
+    background-position-y: -55px;
     left: 0px;
     top: -15px;
 }
 .custom .y{
-    background:url(http://gamepadviewer.com/xbox-assets-old/y.png );
+    background:url(https://i.imgur.com/WJ2TYQi.png );
+    background-position-y: -55px;
     left: 59px;
     top: -15px;
 }
