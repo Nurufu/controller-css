@@ -25,37 +25,35 @@
     top:156px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:95px;
-    height:94px;
-    background: url(https://i.imgur.com/QsWu8Qr.png );
-    opacity: 0;
+    width:86px;
+    height:65px;
+    opacity: 0.6;
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left{
-    background-position: 0 0;
+    background: url(https://i.imgur.com/pCBBOZd.png );
     float: left;
 }
 .custom .trigger.right{
-    background-position: 96px 0;
+    background: url(https://i.imgur.com/VDdr6n6.png );
     float: right;
 }
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 95px;
-    height: 94px;
-    background: url(https://i.imgur.com/4suiZ8g.png );
-    opacity: 1;
+    width: 86px;
+    height: 65px;
+    opacity: 0.6;
 }
 .custom .bumpers{
     position: absolute;
     width: 200px;
     height: 94px;
-    left: 416px;
-    top:156px;
+    left: 0px;
+    top:0px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -65,10 +63,11 @@ placement */
   and I can just rotate them in the browser? Also, note that you most likely won't need
   to use a browser speficic prefix unless it's something that is indeed browser specific.
   NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
+    background: url(https://i.imgur.com/bIM49aG.png );
     float: left;
 }
 .custom .bumper.right{
-    background-position: 96px 0;
+    background: url(https://i.imgur.com/u6wGXiE.png );
     float: right;
 }
 /* This bit of code is for the player indicator, which is represented in
@@ -147,12 +146,12 @@ start and select buttons. */
 .custom .a{
     background:url(http://gamepadviewer.com/xbox-assets-old/a.png );
     left: 0;
-    top:50px;
+    top:44px;
 }
 .custom .b{
     background:url(http://gamepadviewer.com/xbox-assets-old/b.png );
     left: 59px;
-    top:50px;
+    top:44px;
 }
 .custom .x{
     background:url(http://gamepadviewer.com/xbox-assets-old/x.png );
@@ -224,14 +223,14 @@ the CSS inline. */
 
 .custom .face.up {
     left: 42px;
-    top: -80px;
+    top: -90px;
 }
 
 .custom .face.up:after {
     content: "\f062";
 }
 
-.xbox-old .face.down {
+.custom .face.down {
     left: 42px;
     top: -10px;
 }
