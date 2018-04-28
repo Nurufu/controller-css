@@ -101,10 +101,10 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 205px;
+    width: 150px;
     height: 19px;
     top:156px;
-    left: 230px;
+    left: 180px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
@@ -223,7 +223,7 @@ the CSS inline. */
 
 .custom .face.up {
     left: 42px;
-    top: -100px;
+    top: -110px;
 }
 
 .custom .face.up:after {
@@ -232,7 +232,7 @@ the CSS inline. */
 
 .custom .face.down {
     left: 42px;
-    top: -30px;
+    top: -40px;
 }
 
 .custom .face.down:after {
@@ -240,7 +240,7 @@ the CSS inline. */
 }
 
 .custom .face.left {
-    top: -66px;
+    top: -76px;
     left: 3px;
 }
 
@@ -249,7 +249,7 @@ the CSS inline. */
 }
 
 .custom .face.right {
-    top: -66px;
+    top: -76px;
     right: 3px;
 }
 
