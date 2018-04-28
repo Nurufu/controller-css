@@ -22,7 +22,7 @@
     height: 94px;
     position: absolute;
     left: 416px;
-    top:139px;
+    top:138px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:86px;
@@ -53,7 +53,7 @@ placement */
     width: 200px;
     height: 94px;
     left: 416px;
-    top:201px;
+    top:200px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -250,7 +250,7 @@ the CSS inline. */
 
 .custom .face.right {
     top: -76px;
-    right: 18px;
+    right: -12px;
 }
 
 .custom .face.right:after {
